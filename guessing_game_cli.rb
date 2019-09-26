@@ -7,8 +7,8 @@ if input == 'exit'
   puts "Goodbye!"
   elsif input != random_number && input != 'exit'
   puts "Sorry! The computer guessed #{random_number}"
+    run_guessing_game
   elsif input == random_number 
-  puts "You guessed the correct number!"
-  run_guessing_game
-end
+  puts "You guessed the correct number!" 
+ end
 end
