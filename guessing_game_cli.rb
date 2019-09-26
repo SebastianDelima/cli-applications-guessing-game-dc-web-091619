@@ -8,6 +8,6 @@ if input == 'exit'
   elsif input != random_number
   puts "Sorry! The computer guessed #{random_number}"
   else 
-  puts ""
+  puts "You guessed the correct number!"
 end
 end
