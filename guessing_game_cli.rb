@@ -9,5 +9,6 @@ if input == 'exit'
   puts "Sorry! The computer guessed #{random_number}"
   elsif input == random_number 
   puts "You guessed the correct number!"
+  run_guessing_game
 end
 end
