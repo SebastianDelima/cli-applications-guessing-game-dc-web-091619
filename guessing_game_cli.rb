@@ -2,7 +2,6 @@ require'pry'
 
 def run_guessing_game
  random_number =  rand(6) + 1
- puts "Guess number"
  input = gets.chomp
   if input == random_number 
   puts "You guessed the correct number!" 
